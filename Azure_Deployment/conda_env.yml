@@ -1,0 +1,15 @@
+
+name: pytorch-env
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - torch
+      - scikit-learn
+      - joblib
+      - pandas
+      - numpy
+      - azureml-defaults
+      - azureml-inference-server-http
